@@ -5,7 +5,4 @@ for i in range(1,101):
         break
     else:
         total+=i
-if(i<3):
-    print(i)
-else:
-    print(i-1)
+print(i)
