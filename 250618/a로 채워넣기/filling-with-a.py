@@ -1,3 +1,4 @@
 line = input()
 num=len(line)
-print(line[0:2])+'a'+line[3:num-1]+'a'+line[num])
+
+print(line[0:1]+'a'+line[2:num-2]+'a'+ line[num-1])
