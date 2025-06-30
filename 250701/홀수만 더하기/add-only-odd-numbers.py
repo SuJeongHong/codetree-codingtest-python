@@ -1,6 +1,7 @@
 total=0
 N=int(input())
-for i in range(1,N+1):
-    if i%2==1 and i%3==0:
-        total+=i
+for _ in range(N):
+    num=int(input())
+    if num%2==1 and num%3==0:
+        total+=num
 print(total)
